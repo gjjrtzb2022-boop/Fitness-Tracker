@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beginner's Tutorial - Fitness Tracker</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .header {
+            background: linear-gradient(135deg, #00b4d8, #0077b6);
+            color: white;
+            padding: 2rem;
+            border-radius: 10px;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .section {
+            background: white;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #00b4d8;
+            border-bottom: 2px solid #00b4d8;
+            padding-bottom: 0.5rem;
+        }
+        .step {
+            background: #f8f9fa;
+            padding: 1rem;
+            margin: 1rem 0;
+            border-left: 4px solid #00b4d8;
+        }
+        .tip {
+            background: #d1ecf1;
+            border-left: 4px solid #0c5460;
+            padding: 1rem;
+            margin: 1rem 0;
+        }
+        code {
+            background: #f0f0f0;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+        }
+        .feature-box {
+            display: inline-block;
+            background: #e7f5ff;
+            padding: 0.5rem 1rem;
+            margin: 0.25rem;
+            border-radius: 6px;
+            font-size: 0.9rem;
+        }
+        @media print {
+            body { background: white; }
+            .header { page-break-after: avoid; }
+            .section { page-break-inside: avoid; }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🎓 Beginner's Tutorial</h1>
+        <p>Learn to use your Fitness Tracker in 5 minutes</p>
+    </div>
+
+    <div class="section">
+        <h2>👋 Welcome!</h2>
+        <p>This tutorial will teach you everything you need to know to start tracking your workouts. No technical knowledge required!</p>
+        
+        <h3>What Can This App Do?</h3>
+        <div class="feature-box">💪 Record 40+ exercises</div>
+        <div class="feature-box">📊 View progress charts</div>
+        <div class="feature-box">🌍 4 languages</div>
+        <div class="feature-box">🎨 Dark/Light themes</div>
+        <div class="feature-box">📥 Export to Excel</div>
+        <div class="feature-box">📱 Works offline</div>
+    </div>
+
+    <div class="section">
+        <h2>📝 Tutorial 1: Record Your First Workout</h2>
+        
+        <div class="step">
+            <strong>Step 1: Click "Record Exercise"</strong>
+            <p>On the home screen, tap the card with the 💪 icon.</p>
+        </div>
+
+        <div class="step">
+            <strong>Step 2: Choose a Category</strong>
+            <p>You'll see 6 categories:</p>
+            <ul>
+                <li><strong>Strength Training</strong> - Weights, push-ups, squats</li>
+                <li><strong>Cardio/Aerobic</strong> - Running, cycling, swimming</li>
+                <li><strong>Flexibility/Yoga</strong> - Stretches and yoga poses</li>
+                <li><strong>HIIT</strong> - High-intensity interval training</li>
+                <li><strong>Core/Ab Workouts</strong> - Planks, crunches, ab exercises</li>
+                <li><strong>Balance/Stability</strong> - Balance exercises</li>
+            </ul>
+            <p>Let's choose <strong>Strength Training</strong> for this example.</p>
+        </div>
+
+        <div class="step">
+            <strong>Step 3: Pick Your Exercise</strong>
+            <p>You'll see a list of exercises like:</p>
+            <ul>
+                <li>Push-ups</li>
+                <li>Pull-ups</li>
+                <li>Squats</li>
+                <li>And more...</li>
+            </ul>
+            <p>Let's select <strong>Push-ups</strong>.</p>
+        </div>
+
+        <div class="step">
+            <strong>Step 4: Fill in the Details</strong>
+            <p>For push-ups, you'll see fields for:</p>
+            <ul>
+                <li><strong>Sets:</strong> How many sets did you do? (e.g., 3)</li>
+                <li><strong>Reps:</strong> How many push-ups per set? (e.g., 15)</li>
+                <li><strong>Weight:</strong> Any added weight in kg (0 for bodyweight)</li>
+                <li><strong>Notes:</strong> Optional - add any comments</li>
+            </ul>
+        </div>
+
+        <div class="step">
+            <strong>Step 5: Save Your Workout</strong>
+            <p>Click the <strong>"Save Workout"</strong> button. You'll see a success message!</p>
+        </div>
+
+        <div class="tip">
+            <strong>💡 Tip:</strong> Different exercises have different fields. For example:
+            <ul>
+                <li><strong>Running</strong> → distance, duration, pace</li>
+                <li><strong>Planks</strong> → duration in seconds, sets</li>
+                <li><strong>Cycling</strong> → distance, duration, speed</li>
+            </ul>
+            The app automatically shows you the right fields!
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>📊 Tutorial 2: View Your Progress</h2>
+        
+        <div class="step">
+            <strong>Step 1: Click "View Records"</strong>
+            <p>From the home screen, tap the card with the 📊 icon.</p>
+        </div>
+
+        <div class="step">
+            <strong>Step 2: Check Your Stats</strong>
+            <p>At the top, you'll see:</p>
+            <ul>
+                <li><strong>Total Workouts</strong> - How many you've recorded</li>
+                <li><strong>This Month</strong> - Workouts this month</li>
+                <li><strong>Most Frequent</strong> - Your favorite exercise</li>
+            </ul>
+        </div>
+
+        <div class="step">
+            <strong>Step 3: View Charts</strong>
+            <p>Scroll down to see:</p>
+            <ul>
+                <li><strong>Category Distribution</strong> - Pie chart showing your workout types</li>
+                <li><strong>Weekly Activity</strong> - Bar chart of last 7 days</li>
+            </ul>
+        </div>
+
+        <div class="step">
+            <strong>Step 4: See Workout History</strong>
+            <p>Scroll to the bottom to see all your workouts listed by date.</p>
+            <p>Each workout shows:</p>
+            <ul>
+                <li>Date</li>
+                <li>Exercise name</li>
+                <li>Details (sets, reps, etc.)</li>
+                <li>Your notes</li>
+                <li><strong>Edit</strong> and <strong>Delete</strong> buttons</li>
+            </ul>
+        </div>
+
+        <div class="tip">
+            <strong>💡 Tip:</strong> Click <strong>Edit</strong> if you made a mistake. Click <strong>Delete</strong> to remove a workout (you'll be asked to confirm).
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>📥 Tutorial 3: Export Your Data</h2>
+        
+        <div class="step">
+            <strong>Step 1: Click "Export Data"</strong>
+            <p>From the home screen, tap the card with the 📥 icon.</p>
+        </div>
+
+        <div class="step">
+            <strong>Step 2: Preview Your Data</strong>
+            <p>You'll see a preview of how your data will look in the CSV file.</p>
+        </div>
+
+        <div class="step">
+            <strong>Step 3: Download</strong>
+            <p>Click <strong>"Download CSV File"</strong>. A file will be saved to your device.</p>
+        </div>
+
+        <div class="step">
+            <strong>Step 4: Open in Excel/Sheets</strong>
+            <p>Open the downloaded file in:</p>
+            <ul>
+                <li>Microsoft Excel</li>
+                <li>Google Sheets</li>
+                <li>Any spreadsheet program</li>
+            </ul>
+            <p>Now you can analyze your data, create custom charts, or share with your trainer!</p>
+        </div>
+
+        <div class="tip">
+            <strong>💡 Tip:</strong> Export your data regularly as a backup! If you clear your browser data, your workouts will be deleted.
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>⚙️ Tutorial 4: Customize Your App</h2>
+        
+        <div class="step">
+            <strong>Step 1: Click "Settings"</strong>
+            <p>From the home screen, tap the card with the ⚙️ icon.</p>
+        </div>
+
+        <div class="step">
+            <strong>Step 2: Change Language</strong>
+            <p>Choose from:</p>
+            <ul>
+                <li>English</li>
+                <li>中文 (Chinese)</li>
+                <li>Español (Spanish)</li>
+                <li>Bahasa Melayu (Malay)</li>
+            </ul>
+            <p>All text, exercise names, and categories will update instantly!</p>
+        </div>
+
+        <div class="step">
+            <strong>Step 3: Switch Theme</strong>
+            <p>Choose your preferred look:</p>
+            <ul>
+                <li><strong>System Default</strong> - Follows your phone's theme</li>
+                <li><strong>Light Mode</strong> - Bright, easy on the eyes in daytime</li>
+                <li><strong>Dark Mode</strong> - Easy on the eyes at night</li>
+            </ul>
+        </div>
+
+        <div class="step">
+            <strong>Step 4: Upload Background Image</strong>
+            <p>Want to personalize the app?</p>
+            <ol>
+                <li>Click <strong>"Choose File"</strong> under Background Image</li>
+                <li>Select a photo from your device</li>
+                <li>Your chosen image appears as the app background!</li>
+            </ol>
+            <p>Don't like it? Click <strong>"Remove Background"</strong> to go back to the default.</p>
+        </div>
+
+        <div class="tip">
+            <strong>💡 Tip:</strong> Use a motivational gym photo or your fitness goal photo as the background to stay motivated!
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>🎯 Quick Tips for Success</h2>
+        
+        <h3>1. Be Consistent</h3>
+        <p>Record workouts immediately after finishing. It takes just 30 seconds!</p>
+
+        <h3>2. Use Notes</h3>
+        <p>Add notes like "Felt strong today" or "Need to increase weight next time"</p>
+
+        <h3>3. Check Your Progress Weekly</h3>
+        <p>Every Sunday, check your charts to see your progress. It's motivating!</p>
+
+        <h3>4. Export Monthly</h3>
+        <p>At the end of each month, export your data as a backup and to track long-term progress.</p>
+
+        <h3>5. Install on Your Phone</h3>
+        <p>For the best experience, install the app on your Android home screen. See the DOWNLOAD_GUIDE.html for instructions.</p>
+    </div>
+
+    <div class="section">
+        <h2>❓ Common Questions</h2>
+        
+        <h3>Can I record multiple workouts per day?</h3>
+        <p><strong>Yes!</strong> Record as many as you want. They'll all show up in your history.</p>
+
+        <h3>What if I made a mistake?</h3>
+        <p>Go to View Records, find the workout, and click <strong>Edit</strong>. Make your changes and save.</p>
+
+        <h3>Will my data sync across devices?</h3>
+        <p><strong>No.</strong> Data is stored locally on each device. Use CSV export to transfer data if needed.</p>
+
+        <h3>Does this app need internet?</h3>
+        <p>After first load, it works offline! (Charts need internet for the first visit only)</p>
+
+        <h3>Is my data private?</h3>
+        <p><strong>Yes!</strong> Everything stays on your device. Nothing is sent to any server.</p>
+
+        <h3>Can I add custom exercises?</h3>
+        <p>Currently, you can choose from 40+ exercises. For adding custom ones, see README.md for instructions on modifying the code.</p>
+    </div>
+
+    <div class="section">
+        <h2>🚀 Next Steps</h2>
+        <ol>
+            <li>Record your first workout right now!</li>
+            <li>Set a goal to log workouts for 7 days in a row</li>
+            <li>Check your progress charts at the end of the week</li>
+            <li>Share the app with gym buddies</li>
+            <li>Read README.md if you want to customize the app</li>
+        </ol>
+    </div>
+
+    <div class="section" style="text-align: center; border-top: 2px solid #00b4d8; padding-top: 2rem;">
+        <h2>💪 You're Ready!</h2>
+        <p>Start your fitness tracking journey today!</p>
+        <p style="color: #666; font-size: 0.9rem;">Print this guide for quick reference</p>
+    </div>
+</body>
+</html>

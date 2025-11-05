@@ -1,0 +1,37 @@
+{
+  "name": "Fitness Tracker - Track Your Journey to Health",
+  "short_name": "Fitness Tracker",
+  "description": "Track your workouts, view progress charts, and export your fitness data. Supports multiple languages and exercise types.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8f9fa",
+  "theme_color": "#00b4d8",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["health", "fitness", "lifestyle"],
+  "lang": "en",
+  "dir": "ltr",
+  "shortcuts": [
+    {
+      "name": "Record Exercise",
+      "short_name": "Record",
+      "description": "Quickly log a new workout",
+      "url": "/?action=record",
+      "icons": [{ "src": "/logo.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "View Records",
+      "short_name": "History",
+      "description": "Check your workout history",
+      "url": "/?action=history",
+      "icons": [{ "src": "/logo.png", "sizes": "192x192" }]
+    }
+  ]
+}
